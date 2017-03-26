@@ -23,10 +23,15 @@
     </dependency>
   </dependencies>
   <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-401VR65-releases</name>
+        <url>http://localhost:8080/artifactory/sms</url>
+    </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>DESKTOP-401VR65-snapshots</name>
-        <url>http://localhost:9090/artifactory/ext-snapshot-local</url>
+        <url>http://localhost:8080/artifactory/sms</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
